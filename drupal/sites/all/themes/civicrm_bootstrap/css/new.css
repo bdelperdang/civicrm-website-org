@@ -543,3 +543,147 @@ a.feature-box:hover{
 .logged-in .CiviPage .checkbox-inline input[type="checkbox"]{
 	margin-left: -20px;
 }
+
+/* MAIN EVENTS PAGE */
+.not-logged-in.civicrm-events header + section > div.container {
+    display: none;
+}
+.civicrm-events .page-header h1 {
+    display: none;
+}
+.civicrm-events .region.region-content {
+    margin-top: 10px;
+}
+.civicrm-events .row-stripe-white > *{
+	margin: 0;
+}
+
+/* menu */
+.menu-name-menu-events-sub-menu .nav > li {
+    display: inline-block;
+}
+.menu-name-menu-events-sub-menu ul {
+    text-align: center;
+}
+.menu-name-menu-events-sub-menu .nav > li a {
+    color: #635d5e;
+    font-size: 15px;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+}
+.menu-name-menu-events-sub-menu .nav > li a:hover,
+.menu-name-menu-events-sub-menu .nav > li a.active-trail {
+    color: #82c459;
+    background-color: transparent
+}
+
+/* civi events section */
+.civicrm-events #white {
+    background: #eee none repeat scroll 0 0;
+    padding: 60px 0;
+}
+a.greenbutton {
+    background-color: #82c459;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+}
+a.greenbutton:hover, a.greenbutton:active {
+    background-color: #64a13f;
+    background-image: none;
+    text-decoration: none;
+}
+.view-conference-civicon-and-user-summit .link .greenbutton {
+    margin-right: 10px;
+}
+.view-conference-civicon-and-user-summit .view-header {
+    padding-right: 20px;
+}
+.view-conference-civicon-and-user-summit .view-header, .view-conference-civicon-and-user-summit .view-content {
+    float: left;
+    width: 100%;
+}
+.view-conference-civicon-and-user-summit h2,
+.civicrm-events h2.pane-title {
+    font-family: oswald, sans-serif;
+    font-size: 48px;
+    margin-top: 0;
+    font-weight: 700
+}
+.view-conference-civicon-and-user-summit .views-field-title {
+    color: #82c459;
+    font-family: oswald, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.view-conference-civicon-and-user-summit .views-field-title a {
+    color: #82c459;
+}
+.view-conference-civicon-and-user-summit .views-field-title a:hover,
+.view-conference-civicon-and-user-summit .views-field-title a:active {
+    color: #64a13f;
+    text-decoration: none;
+}
+.view-conference-civicon-and-user-summit .views-field-field-date-teaser-line {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.view-conference-civicon-and-user-summit .views-row {
+    border-bottom: 2px solid #d2d1d1;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.view-conference-civicon-and-user-summit .views-row-last {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.civicrm-events .pane-local-events, .civicrm-events .pane-webinars-and-online-events {
+	width: 100%;
+}
+@media all and (min-width: 768px){
+	.civicrm-events .pane-local-events, .civicrm-events .pane-webinars-and-online-events {
+		width: 48%;
+	}
+	.view-conference-civicon-and-user-summit .view-header, .view-conference-civicon-and-user-summit .view-content {
+		float: left;
+		width: 50%;
+	}
+}
+.civicrm-events .pane-local-events{
+	float: left;
+}
+.civicrm-events .pane-webinars-and-online-events {
+    float: right;
+}
+.view-local-events .views-row, .view-webinars-and-online-events .views-row {
+    background: #eee none repeat scroll 0 0;
+    margin-bottom: 4px;
+    padding: 30px;
+}
+.view-local-events .views-field-title a, .view-webinars-and-online-events .views-field-title a {
+    font-weight: bold;
+}
+.view-local-events .view-header, .view-webinars-and-online-events .view-header {
+    margin-bottom: 20px;
+}
+.more-link {
+    font-weight: bold;
+    text-align: right;
+}
+.civicrm-events .panel-separator {
+    display: none;
+}
+
+
+
+
+
+
